@@ -113,12 +113,12 @@ public class QuizActivity extends AppCompatActivity {
         Log.d(TAG, "onDestroy() called");
     }
 
-//    @Override
-//    public void onSaveInstanceState(Bundle savedInstanceState) {
-//        super.onSaveInstanceState(savedInstanceState);
-//        Log.i(TAG, "onSaveInstanceState");
-//        savedInstanceState.putInt(KEY_INDEX, mCurrentIndex);
-//    }
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        Log.i(TAG, "onSaveInstanceState");
+        savedInstanceState.putInt(KEY_INDEX, mCurrentIndex);
+    }
 
     private void updateQuestion() {
         int question = mQuestionBank[mCurrentIndex].getTextResId();
