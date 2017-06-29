@@ -4,11 +4,17 @@
     <string name="false_button">Нет</string>
     <string name="correct_toast">Правильно!</string>
     <string name="incorrect_toast">Неправильно!</string>
+    <string name="before_button">Назад</string>
     <string name="next_button">Далее</string>
     <string name="question_oceans">Тихий океан больше Атлантического океана.</string>
     <string name="question_mideast">Суэцкий канал соединяет Красное море и Индийский океан.</string>
     <string name="question_africa">Источник реки Нил находится в Египте.</string>
     <string name="question_americas">Река Амазонка - самая длинная река в Северной и Южной Америке.</string>
     <string name="question_asia">Озеро Байкал является самым старым и самым глубоким пресноводным озером в мире.</string>
+    <string name="warning_text">Вы уверены, что хотите сделать это?</string>
+    <string name="show_answer_button">Показать ответ</string>
+    <string name="cheat_button">Жульничать!</string>
+    <string name="judgment_toast">Сжульничать не получилось</string>
+
     <string name="action_settings">Settings</string>
 </resources>
